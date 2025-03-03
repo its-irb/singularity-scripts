@@ -11,11 +11,7 @@
 #SBATCH --mem=120G
 #SBATCH --time=300:00:00
 
-#AMD zen NODES
-#spack load amber24 /lym3pj3
-
-#Intel NODES
-spack load amber24 /75a75vs
+###check in the documentation which amber version in https://irb.app.lumapps.com/home/ls/content/amber-24-usage
 
 ulimit -Ss unlimited
 export OMP_PLACES=CORES
